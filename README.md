@@ -47,7 +47,7 @@ Durante esta fase se realizaron varias tareas para preparar el dataset:
 - Sustitución del identificador de venta por la matrícula del vehículo para trabajar con un identificador más realista.  
 - Comprobación de duplicados mediante formato condicional (no se detectaron duplicados).  
 - Eliminación de filas vacías fuera de la tabla.  
-- Traducción de valores en la columna de género (`male` → hombre, `female` → mujer).  
+- Traducción de valores en la columna de género (`male` → hombre, `female` → mujer, los demás han sido inventados ya que había muchos más géneros y los hemos sutituido al azar).  
 
 ---
 
@@ -77,7 +77,6 @@ Este tipo de análisis permite tomar decisiones más informadas sobre qué vehí
 
 - Profundizar en el análisis por tipo de cliente  
 - Incorporar modelos predictivos de ventas  
-- Analizar el impacto de la financiación en el margen  
 - Mejorar el dashboard con mayor interactividad  
 
 ---
