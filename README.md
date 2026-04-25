@@ -43,12 +43,7 @@ El dataset incluye información como clientes, vehículos, precios, márgenes, v
 Durante esta fase se realizaron varias tareas para preparar el dataset:
 
 - Conversión de la columna `precio_compra` a formato numérico (reemplazando puntos por comas).  
-- Creación de la columna `precio_venta` mediante la fórmula:
-  
-
-=K2*(1 + ALEATORIO.ENTRE(30;50)/100)
-
-
+- Creación de la columna `precio_venta` mediante la fórmula: =K2*(1 + ALEATORIO.ENTRE(30;50)/100)
 - Sustitución del identificador de venta por la matrícula del vehículo para trabajar con un identificador más realista.  
 - Comprobación de duplicados mediante formato condicional (no se detectaron duplicados).  
 - Eliminación de filas vacías fuera de la tabla.  
